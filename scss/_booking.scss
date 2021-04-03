@@ -1,0 +1,96 @@
+.booking-1 {
+    background: url(/img/booking-1.jpg) center center/cover no-repeat;
+    max-height: 700px;
+    width: 100%;
+    padding: 232px 50px 100px 50px;
+    box-sizing: border-box;
+}
+.booking-2 {
+    background: url(/img/booking-2.jpg) center center/cover no-repeat;
+    max-height: 700px;
+    width: 100%;
+    padding: 232px 50px 100px 50px;
+    box-sizing: border-box;
+}
+.booking-box {
+    max-width: 540px;
+    max-height: 370px;
+    padding: 50px 32px 50px 30px;
+    background-color: rgba(35,35,35, .9);
+    box-sizing: border-box;
+}
+.booking-box--right {
+    margin-left: auto;
+}
+
+.booking-box__subtitle {
+    font-size: 20px;
+    color: #e8e8e8;
+    font-family: $fontJosefin;
+    margin-bottom: 24px;
+}
+.booking-box__title {
+    font-size: 20px;
+    color: #fff;
+    font-family: $fontJosefin;
+    text-transform: uppercase;
+}
+.booking-box__text {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 20px 0 42px;
+    color: #e8e8e8;
+    font-family: $fontJosefin;
+}
+.booking__btn {
+    width: 225px;
+    height: 60px;
+    padding: 0 38px;
+    background: rgb(84,116,253);
+    background: linear-gradient(45deg, rgba(84,116,253,1) 40%, rgba(73,107,254,1) 40%, rgba(84,116,253,1) 100%);
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    &:hover {
+        background: linear-gradient(45deg, rgba(84,116,253,1) 40%, rgba(73,107,254,1) 60%, rgba(84,116,253,1) 100%);
+        cursor: pointer;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .booking-1 {
+        max-height: 600px;
+        padding: 60px;
+        
+    }
+    .booking-2 {
+        max-height: 600px;
+        padding: 60px;
+    }
+    .booking-box {
+        max-width: 300px;
+        padding: 25px;
+        margin: 0 auto;
+    }
+    .booking-box__text {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 20px 0;
+        color: #e8e8e8;
+        font-family: $fontJosefin;
+    }
+}
+
+@media (max-width: 376px) {
+    .booking-1 {
+        padding: 30px;
+    }
+    .booking-2 {
+        padding: 30px;
+    }
+    .booking-box__text {
+        line-height: 18px;
+    }
+}

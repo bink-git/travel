@@ -1,0 +1,112 @@
+.icons {
+  max-height: 337px;
+  padding: 95px 40px 110px 40px;
+  background-color: #333;
+  
+}
+.icons-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    position: relative;
+    z-index: 1;
+}
+.icons-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0 20px;
+}
+.icons-title {
+    margin-top: 20px;
+    font-size: 36px;
+    font-family: $fontAleo;
+    font-weight: 400;
+    color: #fff;
+}
+
+.icon-search-blue {
+    content: "\e903";
+    color: $primary-color;
+    font-size: 70px;
+    background-color: #333;
+  }
+.icon-check {
+    content: "\e901";
+    font-size: 70px;
+    color: #ff6363;
+    background-color: #333;
+  }
+.icon-like2 {
+    content: "\e902";
+    font-size: 70px;
+    color: #00a2ff;
+    background-color: #333;
+  }
+
+.icons-curve {
+    width: 70%;
+    position: absolute;
+    left: 14%;
+    top: -38%;
+    z-index: -1;
+}
+
+
+// ----------------MEDIA------------------------
+
+
+@media (max-width: 1024px) {
+    .icons-title {
+      font-size: 30px;
+  }
+}
+
+@media (max-width: 860px) {
+  .icons {
+    padding: 70px 40px;
+  }
+  .icon {
+    font-size: 40px;
+    }
+  .icons-title {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .icons {
+    padding: 30px;
+  }
+  .icon {
+    font-size: 30px;
+    }
+  .icons-title {
+    font-size: 14px;
+    text-align: center;
+  }
+  .icons-curve {
+    display: none;
+  }
+  .icons-flex {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 375px) {
+  .icons-flex {
+    justify-content: center;
+    align-items:center;
+    position: relative;
+    z-index: 1;
+}
+.icons-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:0 5px;
+  }
+}

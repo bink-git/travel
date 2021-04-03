@@ -1,0 +1,79 @@
+.footer {
+    max-height: 284px;
+    background-color: #232323;
+    margin: 0 auto;
+    padding: 120px 40px 52px;
+}
+.footer__logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    font-family: $fontJosefin;
+    letter-spacing: 2px;
+}
+.footer__logo span {
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    font-family: $fontJosefin;
+    letter-spacing: 0.6px;
+    margin-top: 7px;
+    margin-bottom: 30px;
+}
+.footer__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin: 0 12px;
+}
+.footer__social a {
+    color: #fff;
+    margin: 0 12px;
+    &:focus {
+        outline: 1px dotted #5474fd;
+        outline-offset: 5px;
+    }
+}
+.fa-facebook-f:hover {
+    color: #3b5998;
+}
+.fa-twitter:hover {
+    color: #00acee;
+}
+.fa-linkedin-in:hover {
+    color: #0077b5;
+}
+.fa-youtube:hover {
+    color: #ff0000;
+}
+.fa-pinterest:hover {
+    color: #e60023;
+}
+
+
+
+// --------------------MEDIA----------------------------------
+@media (max-width: 768px) {
+    .footer {
+        max-height: 200px;
+        margin: 0 auto;
+        padding: 70px 40px 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer {
+        max-height: 150px;
+        padding: 40px;
+    }
+}
+
+@media (max-width: 375px) {
+    .footer {
+        max-height: 100px;
+    }
+}
