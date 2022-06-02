@@ -14,7 +14,7 @@ a {
 }
 
 .main {
-  background: url(../img/main-bg.jpg) left center/cover no-repeat;
+  background: url(../../img/main-bg.jpg) left center/cover no-repeat;
   max-height: 740px;
   width: 100%;
   padding: 232px 50px 120px 50px;
@@ -205,7 +205,7 @@ a {
 
 @media (max-width: 576px) {
   .main {
-    background: url(/img/main-bg.jpg) center center/cover no-repeat;
+    background: url(../img/main-bg.jpg) center center/cover no-repeat;
     padding: 180px 30px 120px;
     max-height: 480px;
   }
