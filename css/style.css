@@ -14,7 +14,7 @@ a {
 }
 
 .main {
-  background: url(../img/main-bg.jpg) left center/cover no-repeat;
+  background: url(./../img/main-bg.jpg) left center/cover no-repeat;
   max-height: 740px;
   width: 100%;
   padding: 232px 50px 120px 50px;
@@ -205,7 +205,7 @@ a {
 
 @media (max-width: 576px) {
   .main {
-    background: url(../../img/main-bg.jpg) center center/cover no-repeat;
+    background: url(./../img/main-bg.jpg) center center/cover no-repeat;
     padding: 180px 30px 120px;
     max-height: 480px;
   }
@@ -426,7 +426,7 @@ a {
 }
 
 .choose {
-  background: url(../../img/choose-bg.jpg) center center/cover no-repeat;
+  background: url(./../img/choose-bg.jpg) center center/cover no-repeat;
   max-height: 686px;
   width: 100%;
   padding: 170px 50px 135px 50px;
@@ -780,7 +780,7 @@ a {
 }
 
 .booking-1 {
-  background: url(../../img/booking-1.jpg) center center/cover no-repeat;
+  background: url(./../img/booking-1.jpg) center center/cover no-repeat;
   max-height: 700px;
   width: 100%;
   padding: 232px 50px 100px 50px;
@@ -789,7 +789,7 @@ a {
 }
 
 .booking-2 {
-  background: url(../../img/booking-2.jpg) center center/cover no-repeat;
+  background: url(./../img/booking-2.jpg) center center/cover no-repeat;
   max-height: 700px;
   width: 100%;
   padding: 232px 50px 100px 50px;
@@ -885,7 +885,7 @@ a {
 }
 
 .comments {
-  background: url(../../img/comment-bg.jpg) left center/cover no-repeat;
+  background: url(./../img/comment-bg.jpg) left center/cover no-repeat;
   max-height: 730px;
   width: 100%;
   padding: 117px 50px 200px 50px;
